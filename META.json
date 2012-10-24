@@ -1,0 +1,56 @@
+{
+   "abstract" : "install chromedriver",
+   "author" : [
+      "Hiroki Honda (Cside) <cside.story(at)gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-ChromeDriver",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::ShareDir" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "LWP::Simple" : "0",
+            "Module::Build" : "0",
+            "Web::Query" : "0",
+            "autodie" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.00",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "Alien::ChromeDriver" : {
+         "file" : "lib/Alien/ChromeDriver.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
