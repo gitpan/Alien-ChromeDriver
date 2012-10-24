@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use File::ShareDir qw(dist_file);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $VERBOSE = 1;
 
 sub start {

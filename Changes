@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::ChromeDriver
 
+0.02 2012-10-25
+    - fix
+
 0.01 2012-10-25
     - original version; created by dim
       at Fri Oct 12 19:25:56 2012.
